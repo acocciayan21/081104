@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu</title>
+  <link rel="stylesheet" href="style/main.css" />
+  <link rel="stylesheet" href="style/sidebar-right.css" />
+  <link rel="stylesheet" href="style/sidebar-left.css" />
+  <!-- <link rel="stylesheet" href="style/center-div.css"> -->
+  <link rel="stylesheet" href="style/menu-page.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="https://kit.fontawesome.com/c6026485e1.js" crossorigin="anonymous"></script>
+
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+  <main class="main">
+    <!-- SIDEBAR-LEFT -->
+    <div class="sidebar-left">
+      <ul>
+        <a href="">
+          <li>
+            <img src="images/plain-text-logo.png" alt="" class="plain-text-logo" />
+          </li>
+        </a>
+        <a href="main.html">
+          <li class="home-menu">
+            <i class="bx bx-home home-icon left-icon" style="color: #84391b"></i>
+            <p>Home</p>
+          </li>
+        </a>
+        <a href="">
+          <li class="menu-menu-active">
+            <i class="bx bx-coffee menu-icon left-icon" style="color: #84391b"></i>
+            <p>Menu</p>
+          </li>
+        </a>
+        <a href="favorite-page.html">
+          <li class="favorites-menu-active">
+            <i class="bx bx-heart heart-icon left-icon" style="color: #84391b"></i>
+            <p>Favorites</p>
+          </li>
+        </a>
+        <a href="">
+          <li class="history-menu">
+            <i class="bx bx-history history-icon left-icon" style="color: #84391b"></i>
+            <p>History</p>
+          </li>
+        </a>
+      </ul>
+    </div>
+
+
+
+
+    <!-- CENTER DIV -->
+    <div class="menu-center-div">
+      <header class="header-menu">
+        <h1>Menu Category</h1>
+        <div class="menu-choices-container">
+          <button class="menu-coffee menu-button" data-param="0">
+            <a><i class='bx bx-coffee-togo' style='color:#36180d'></i></a>
+            <p>Coffee</p>
+          </button>
+          <button class="menu-milktea menu-button" data-param="1">
+            <a><i class='bx bxs-coffee-togo' style='color:#36180d'></i></a>
+            <p>Milktea</p>
+          </button>
+          <button class="menu-burger menu-button" data-param="2">
+
+            <a><i class="fa-solid fa-burger" style="color: #36180d;"></i></a>
+            <p>Burger</p>
+          </button>
+          <button class="menu-pasta menu-button" data-param="3">
+            <a><span class="material-symbols-outlined" style="color: #36180d;">
+                ramen_dining
+              </span>
+            </a>
+            <p>Pasta</p>
+          </button>
+          <button class="menu-pastry menu-button" data-param="4">
+            <a><i class="fa-solid fa-pizza-slice" style="color: #36180d;"></i></a>
+            <p>Pastry</p>
+          </button>
+          <button class="menu-others menu-button" data-param="5">
+            <a><span class="material-symbols-outlined" style="color: #36180d;">
+              fastfood
+              </span>
+            </a>
+            <p>Others</p>
+          </button>
+        </div>
+        <p class="choose-order">Choose Order <span class="material-symbols-outlined">
+          arrow_downward
+          </span></p>
+      </header>
+
+
+
+
+
+      <div class="products-container">
+        <div class="item-products-div js-coffee-item-products-div">
+          
+        </div>
+        <div class="item-products-div js-milktea-item-products-div">
+          <div class="milktea-section section"></div>
+        </div>
+        <div class="item-products-div js-burger-item-products-div">
+          <div class="burger-section section"></div>
+        </div>
+        <div class="item-products-div js-pasta-item-products-div">
+          <div class="pasta-section section"></div>
+        </div>
+        <div class="item-products-div js-pastry-item-products-div">
+          <div class="pastry-section section"></div>
+        </div>
+        <div class="item-products-div js-others-item-products-div">
+          <div class="others-section section"></div>
+        </div>
+        
+        
+     
+      </div>
+
+      <div class="item-display-container">
+        
+      </div>
+     
+    </div>
+
+
+
+
+
+    <!-- SIDEBAR-RIGHT -->
+    <div class="sidebar-right">
+      <div class="sidebar">
+        <div class="sidebar-profile-container">
+          <div class="profile-container">
+            <i class="bx bx-user-circle profile-logo" style="color: #84391b"></i>
+            <div class="profile-div">
+              <h1 class="user-name">Ayan Torreda</h1>
+              <p>Customer</p>
+            </div>
+            <div class="profile-container-icon">
+              <a href=""><i class="bx bx-bell icon-setting" style="color: #84391b"></i></a>
+              <a href=""><i class="bx bx-cog icon-notification" style="color: #84391b"></i></a>
+            </div>
+          </div>
+
+          <div class="wallet-div">
+            <div>
+              <h1 class="wallet-balance">Wallet Balance</h1>
+            </div>
+            <div class="balance-div">
+              <div class="balance-div2">
+                <p>&#8369 </p>
+                <p>500.00</p>
+              </div>
+              <div class="add-amount">
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#84391b"><path d="M440-280h80v-160h160v-80H520v-160h-80v160H280v80h160v160Zm40 200q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar-order-container">
+          <div class="orders-container">
+            <div>
+              <p>My Orders</p>
+            </div>
+            <div class="orders-div">
+               
+             
+            </div>
+            <div class="total-checkout-div">
+              <div class="total-div">
+                <p class="total">Total:</p>
+                <p class="total-amount">&#8369 00.00</p>
+              </div>
+              <div class="checkout-div">
+                <a href="">CHECKOUT</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script type="module"  src="javascript/menu-page.js" ></script>
+  <script>
+    document.addEventListener('contextmenu', function(event) {
+        event.preventDefault(); // Prevents the context menu from appearing
+    });
+</script>
+</body>
+</html>

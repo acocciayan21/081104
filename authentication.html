@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Authentication</title>
+  <link rel="stylesheet" href="style/authentication.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+  <main class="main">
+    <div class="container">
+      <div class="form-container sign-up">
+        <h1>Sign-up</h1>
+        <div class="icons-div">
+          <a href=""><box-icon type="logo" name="facebook-circle"></box-icon></a>
+          <a href=""><box-icon name="github" type="logo" color="#000000"></box-icon></a>
+          <a href=""><box-icon name="phone" type="solid"></box-icon></a>
+        </div>
+        <p>or use email and password</p>
+        <input type="text" class="name" placeholder="Name">
+        <input type="text" class="email" placeholder="Email">
+        <input type="text" class="password" placeholder="Password">
+        <button class="sign-up-button"><a href="main.html" class="mamamo">Register</a></button>
+      </div>
+      <div class="form-container sign-in">
+        <h1>Sign-in</h1>
+        <div class="icons-div">
+          <a href=""><box-icon type="logo" name="facebook-circle"></box-icon></a>
+          <a href=""><box-icon name="github" type="logo" color="#000000"></box-icon></a>
+          <a href=""><box-icon name="phone" type="solid"></box-icon></a>
+        </div>
+        <p>or use email and password</p>
+        <input type="text" class="email" placeholder="Email">
+        <input type="text" class="password" placeholder="Password">
+        <p class="forgot">Forgot password?</p>
+        <button class="sign-in-button"><a href="main.html" class="mamamo">Log In</a></button>
+      </div>
+      <div class="toggle-container">
+        
+        <div class="toggle-sign-in toggle">
+          <h1>Welcome Back!</h1>
+          <p>Sign in to access your account and start ordering your favorite coffee!</p>
+          <button class="toggle-sign-in-button">Sign In</button>
+        </div>
+        <div class="toggle toggle-sign-up">
+          <h1>Hi! Coffee Lovers</h1>
+          <p>New here? Sign up now to enjoy personalized coffee orders and exclusive offers!</p>
+          <button class="toggle-sign-up-button">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="javascript/authentication.js"></script>
+  <script>
+    document.addEventListener('contextmenu', function(event) {
+        event.preventDefault(); // Prevents the context menu from appearing
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,234 @@
+.sidebar-right {
+  /* position: fixed; */
+  right: 0;
+  background: white;
+  height: 100%;
+  width: 400px;
+  padding: 12px;
+  border: 2px solid #84391b;
+  /* opacity: 0; */
+}
+.sidebar{
+  width: 100%;
+  height: 100%;
+  /* border: red solid; */
+}
+.sidebar-profile-container {
+  /* border: blue solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30%;
+}
+.sidebar-order-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 70%;
+  /* border: green solid; */
+}
+
+.profile-container {
+  display: grid;
+  grid-template-columns: 45px 1fr 65px;
+  padding: 0 5px;
+  align-items: center;
+  width: 100%; 
+}
+
+.profile-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  line-height: 1.1;
+  max-width: 100%; 
+  overflow: hidden;
+  padding-right: 5px;
+}
+
+.profile-logo {
+  font-size: 2.5rem;
+}
+
+.profile-div h1 {
+  font-size: 1.3rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  color: #84391b;
+}
+
+.profile-div p {
+  font-size: 0.8rem;
+  color: #84391b;
+}
+
+.profile-container-icon {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon-setting, .icon-notification {
+  font-size: 1.7rem;
+}
+
+
+/* WALLET */
+.wallet-div {
+  width: 100%;
+  height: 100px;
+  border: 2px solid #84391b;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 5px 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #efddcc;
+  margin-bottom: 5px;
+  /* align-items: center;  */
+}
+.wallet-balance {
+  text-align: left;
+  font-weight: 400;
+}
+.balance-div {
+  /* border: red solid 1px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.balance-div2 {
+  display: flex;
+  justify-content: space-around;
+  /* border: red solid ; */
+  width: 80%;
+  height: auto;
+  overflow: hidden;
+}
+.balance-div p {
+  font-size: 2.7rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #84391b;
+  font-weight: 500;
+}
+.add-amount {
+  display: flex;
+  justify-content: flex-end;
+  width: 20%;
+  /* border: blue solid; */
+}
+.add-amount-icon {
+  font-size: 1.5rem;
+}
+
+
+/* ORDERS */
+.orders-container {
+  /* border: red solid; */
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+.orders-container p {
+  color: #84391b;
+  font-weight: 500;
+}
+.orders-div {
+  /* border: black solid; */
+  max-height: 400px;
+  height: auto;
+  max-height: 80%;
+  padding: 5px;
+  margin-top: 5px;
+  overflow: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none; 
+  
+  /* -ms-overflow-style: none;  */
+}
+.ordered-item-div {
+  border: #84391b solid 2px;
+  width: 100%;
+  height: auto;
+  padding: 5px 8px;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 35px;
+  margin-bottom: 10px;
+}
+.ordered-item-description {
+  overflow: hidden;
+}
+.ordered-name {
+  /* border: black solid; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.ordered-sugar-level,.ordered-size,.ordered-quantity {
+  white-space: nowrap;
+  font-size: .7rem;
+}
+.ordered-price {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.ordered-remove{
+  height: 35px;
+  display: flex;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ordered-remove:hover,.ordered-remove:active{
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+}
+.total-div {
+  /* border: red solid; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.total-checkout-div {
+  /* border: yellowgreen solid; */
+  height: auto;
+}
+.total-div p {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+.checkout-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: none;
+  background-color: #84391b;
+  border-radius: 10px;
+  /* margin-bottom: 10px; */
+  /* border: yellow solid; */
+}
+.checkout-div a {
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #efddcc;
+  padding: 3px 0;
+  letter-spacing: 1.5
+  px;
+}
+
